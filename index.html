@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        transition: 3s;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML= '12.34.2023'"
+    >
+      The time is
+    </button>
+    <p id="demo"></p>
+
+    <button type="button" onclick="this.innerHTML= Date()">The time is</button>
+
+    <p>Click the button to display the date.</p>
+    <button onclick="displayDate()">click me on button?</button>
+    
+    <script>
+    function displayDate() {
+      alert(77)
+      document.getElementById("time").innerHTML = hello ;
+    }
+    </script>
+   
+    <p id="time"></p>
+  </body>
+</html>
